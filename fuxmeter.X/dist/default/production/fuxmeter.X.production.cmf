@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\lucap\AppData\Local\Temp\s92o.o
+$C:\Users\lucap\AppData\Local\Temp\s7a8.o
 idloc IDLOC 0 8000 8000 4 2
 reset_vec CODE 0 0 0 1 2
 end_init CODE 0 C C 1 2
@@ -114,21 +114,21 @@ STRING 1AE-7FF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\fuxmeter.X.production.o
-D cinit CODE >2518:C:\Users\lucap\AppData\Local\Temp\s92o.
-D cinit CODE >2521:C:\Users\lucap\AppData\Local\Temp\s92o.
-D cinit CODE >2566:C:\Users\lucap\AppData\Local\Temp\s92o.
-E cinit CODE >2567:C:\Users\lucap\AppData\Local\Temp\s92o.
-F cinit CODE >2568:C:\Users\lucap\AppData\Local\Temp\s92o.
-10 cinit CODE >2572:C:\Users\lucap\AppData\Local\Temp\s92o.
-11 cinit CODE >2573:C:\Users\lucap\AppData\Local\Temp\s92o.
-12 cinit CODE >2574:C:\Users\lucap\AppData\Local\Temp\s92o.
-13 cinit CODE >2575:C:\Users\lucap\AppData\Local\Temp\s92o.
-14 cinit CODE >2576:C:\Users\lucap\AppData\Local\Temp\s92o.
-15 cinit CODE >2577:C:\Users\lucap\AppData\Local\Temp\s92o.
-16 cinit CODE >2583:C:\Users\lucap\AppData\Local\Temp\s92o.
-16 cinit CODE >2585:C:\Users\lucap\AppData\Local\Temp\s92o.
-17 cinit CODE >2586:C:\Users\lucap\AppData\Local\Temp\s92o.
-18 cinit CODE >2587:C:\Users\lucap\AppData\Local\Temp\s92o.
+D cinit CODE >2518:C:\Users\lucap\AppData\Local\Temp\s7a8.
+D cinit CODE >2521:C:\Users\lucap\AppData\Local\Temp\s7a8.
+D cinit CODE >2566:C:\Users\lucap\AppData\Local\Temp\s7a8.
+E cinit CODE >2567:C:\Users\lucap\AppData\Local\Temp\s7a8.
+F cinit CODE >2568:C:\Users\lucap\AppData\Local\Temp\s7a8.
+10 cinit CODE >2572:C:\Users\lucap\AppData\Local\Temp\s7a8.
+11 cinit CODE >2573:C:\Users\lucap\AppData\Local\Temp\s7a8.
+12 cinit CODE >2574:C:\Users\lucap\AppData\Local\Temp\s7a8.
+13 cinit CODE >2575:C:\Users\lucap\AppData\Local\Temp\s7a8.
+14 cinit CODE >2576:C:\Users\lucap\AppData\Local\Temp\s7a8.
+15 cinit CODE >2577:C:\Users\lucap\AppData\Local\Temp\s7a8.
+16 cinit CODE >2583:C:\Users\lucap\AppData\Local\Temp\s7a8.
+16 cinit CODE >2585:C:\Users\lucap\AppData\Local\Temp\s7a8.
+17 cinit CODE >2586:C:\Users\lucap\AppData\Local\Temp\s7a8.
+18 cinit CODE >2587:C:\Users\lucap\AppData\Local\Temp\s7a8.
 4 intentry CODE >52:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\mcc_generated_files/interrupt_manager.c
 6 intentry CODE >55:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\mcc_generated_files/interrupt_manager.c
 9 intentry CODE >57:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\mcc_generated_files/interrupt_manager.c
@@ -268,51 +268,51 @@ EF text3 CODE >30:C:\Program Files\Microchip\xc8\v2.05\pic\sources\c99\common\lw
 126 text2 CODE >49:C:\Program Files\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
 12A text2 CODE >52:C:\Program Files\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
 12E text2 CODE >53:C:\Program Files\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
-6B text1 CODE >184:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-6B text1 CODE >190:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-70 text1 CODE >193:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-74 text1 CODE >194:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-78 text1 CODE >197:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-7C text1 CODE >198:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-83 text1 CODE >200:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-87 text1 CODE >201:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-95 text1 CODE >202:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-A3 text1 CODE >203:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-A4 text1 CODE >206:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-A6 text1 CODE >209:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-AE text1 CODE >211:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-B0 text1 CODE >212:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-BB text1 CODE >215:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-F0 maintext CODE >84:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-F0 maintext CODE >87:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-F1 maintext CODE >93:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-F2 maintext CODE >96:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-F3 maintext CODE >105:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-F4 maintext CODE >106:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-F5 maintext CODE >110:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-F6 maintext CODE >112:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-F7 maintext CODE >117:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-F9 maintext CODE >119:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-FA maintext CODE >122:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-FB maintext CODE >127:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-FD maintext CODE >129:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-FE maintext CODE >132:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-FF maintext CODE >138:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-100 maintext CODE >140:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-101 maintext CODE >145:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-103 maintext CODE >147:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-104 maintext CODE >149:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-10F maintext CODE >154:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-111 maintext CODE >156:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-112 maintext CODE >157:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
-182 clrtext CODE >2555:C:\Users\lucap\AppData\Local\Temp\s92o.
-182 clrtext CODE >2556:C:\Users\lucap\AppData\Local\Temp\s92o.
-183 clrtext CODE >2557:C:\Users\lucap\AppData\Local\Temp\s92o.
-183 clrtext CODE >2558:C:\Users\lucap\AppData\Local\Temp\s92o.
-184 clrtext CODE >2559:C:\Users\lucap\AppData\Local\Temp\s92o.
-185 clrtext CODE >2560:C:\Users\lucap\AppData\Local\Temp\s92o.
-186 clrtext CODE >2561:C:\Users\lucap\AppData\Local\Temp\s92o.
-187 clrtext CODE >2562:C:\Users\lucap\AppData\Local\Temp\s92o.
+6B text1 CODE >189:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+6B text1 CODE >195:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+70 text1 CODE >198:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+74 text1 CODE >199:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+78 text1 CODE >202:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+7C text1 CODE >203:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+83 text1 CODE >205:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+87 text1 CODE >206:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+95 text1 CODE >207:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+A3 text1 CODE >208:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+A4 text1 CODE >211:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+A6 text1 CODE >214:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+AE text1 CODE >216:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+B0 text1 CODE >217:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+BB text1 CODE >220:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+F0 maintext CODE >89:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+F0 maintext CODE >92:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+F1 maintext CODE >98:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+F2 maintext CODE >101:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+F3 maintext CODE >110:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+F4 maintext CODE >111:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+F5 maintext CODE >115:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+F6 maintext CODE >117:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+F7 maintext CODE >122:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+F9 maintext CODE >124:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+FA maintext CODE >127:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+FB maintext CODE >132:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+FD maintext CODE >134:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+FE maintext CODE >137:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+FF maintext CODE >143:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+100 maintext CODE >145:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+101 maintext CODE >150:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+103 maintext CODE >152:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+104 maintext CODE >154:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+10F maintext CODE >159:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+111 maintext CODE >161:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+112 maintext CODE >162:D:\Lavoro\__GIT\fluxmeterNew\fuxmeter.X\main.c
+182 clrtext CODE >2555:C:\Users\lucap\AppData\Local\Temp\s7a8.
+182 clrtext CODE >2556:C:\Users\lucap\AppData\Local\Temp\s7a8.
+183 clrtext CODE >2557:C:\Users\lucap\AppData\Local\Temp\s7a8.
+183 clrtext CODE >2558:C:\Users\lucap\AppData\Local\Temp\s7a8.
+184 clrtext CODE >2559:C:\Users\lucap\AppData\Local\Temp\s7a8.
+185 clrtext CODE >2560:C:\Users\lucap\AppData\Local\Temp\s7a8.
+186 clrtext CODE >2561:C:\Users\lucap\AppData\Local\Temp\s7a8.
+187 clrtext CODE >2562:C:\Users\lucap\AppData\Local\Temp\s7a8.
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -341,10 +341,10 @@ _LATA 10C 0 ABS 0 - dist/default/production\fuxmeter.X.production.o
 _PLLR 4D6 0 ABS 0 - dist/default/production\fuxmeter.X.production.o
 _TMR0 15 0 ABS 0 - dist/default/production\fuxmeter.X.production.o
 _WPUA 20C 0 ABS 0 - dist/default/production\fuxmeter.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\lucap\AppData\Local\Temp\s92o.o
+___sp 0 0 STACK 2 stack C:\Users\lucap\AppData\Local\Temp\s7a8.o
 _main 1E0 0 CODE 0 maintext dist/default/production\fuxmeter.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\fuxmeter.X.production.o
-start 18 0 CODE 0 init C:\Users\lucap\AppData\Local\Temp\s92o.o
+start 18 0 CODE 0 init C:\Users\lucap\AppData\Local\Temp\s7a8.o
 _TMR0_InterruptHandler 2E 0 BANK0 1 bssBANK0 dist/default/production\fuxmeter.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production\fuxmeter.X.production.o
 __size_of___lwdiv 0 0 ABS 0 - dist/default/production\fuxmeter.X.production.o
@@ -357,12 +357,12 @@ _ADC_StartConversion 34E 0 CODE 0 text14 dist/default/production\fuxmeter.X.prod
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\fuxmeter.X.production.o
 TMR0_SetInterruptHandler@InterruptHandler 71 0 COMMON 1 cstackCOMMON dist/default/production\fuxmeter.X.production.o
 _timebase_flags 79 0 COMMON 1 bssCOMMON dist/default/production\fuxmeter.X.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\lucap\AppData\Local\Temp\s92o.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\lucap\AppData\Local\Temp\s92o.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\lucap\AppData\Local\Temp\s92o.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\lucap\AppData\Local\Temp\s92o.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\lucap\AppData\Local\Temp\s92o.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\lucap\AppData\Local\Temp\s92o.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\lucap\AppData\Local\Temp\s7a8.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\lucap\AppData\Local\Temp\s7a8.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\lucap\AppData\Local\Temp\s7a8.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\lucap\AppData\Local\Temp\s7a8.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\lucap\AppData\Local\Temp\s7a8.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\lucap\AppData\Local\Temp\s7a8.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 __size_of_ADC_Initialize 0 0 ABS 0 - dist/default/production\fuxmeter.X.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\fuxmeter.X.production.o
@@ -384,8 +384,8 @@ __end_of___wmul 25E 0 CODE 0 text2 dist/default/production\fuxmeter.X.production
 __Lmaintext 0 0 ABS 0 maintext -
 __end_of___lwdiv 1E0 0 CODE 0 text3 dist/default/production\fuxmeter.X.production.o
 _OPTION_REG 95 0 ABS 0 - dist/default/production\fuxmeter.X.production.o
-___stackhi 206F 0 ABS 0 - C:\Users\lucap\AppData\Local\Temp\s92o.o
-___stacklo 2012 0 ABS 0 - C:\Users\lucap\AppData\Local\Temp\s92o.o
+___stackhi 206F 0 ABS 0 - C:\Users\lucap\AppData\Local\Temp\s7a8.o
+___stacklo 2012 0 ABS 0 - C:\Users\lucap\AppData\Local\Temp\s7a8.o
 _TimeBase 32 0 CODE 0 text20 dist/default/production\fuxmeter.X.production.o
 ___lwdiv@quotient 77 0 COMMON 1 cstackCOMMON dist/default/production\fuxmeter.X.production.o
 _PIN_MANAGER_Initialize 2AC 0 CODE 0 text10 dist/default/production\fuxmeter.X.production.o
@@ -400,7 +400,7 @@ clear_ram0 304 0 CODE 0 clrtext dist/default/production\fuxmeter.X.production.o
 __pcstackBANK0 30 0 BANK0 1 cstackBANK0 dist/default/production\fuxmeter.X.production.o
 __end_of_TimeBaseVarInit 2AC 0 CODE 0 text5 dist/default/production\fuxmeter.X.production.o
 _WDTCON 97 0 ABS 0 - dist/default/production\fuxmeter.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\lucap\AppData\Local\Temp\s92o.o
+___int_sp 0 0 STACK 2 stack C:\Users\lucap\AppData\Local\Temp\s7a8.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 BANK2 1 bank2 -
@@ -550,7 +550,7 @@ _SYSTEM_Initialize 310 0 CODE 0 text6 dist/default/production\fuxmeter.X.product
 __CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\fuxmeter.X.production.o
 _ADC_GetConversionResult 328 0 CODE 0 text15 dist/default/production\fuxmeter.X.production.o
 __Lintentry 8 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\lucap\AppData\Local\Temp\s92o.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\lucap\AppData\Local\Temp\s7a8.o
 __end_of_ADC_GetConversionResult 334 0 CODE 0 text15 dist/default/production\fuxmeter.X.production.o
 __size_of___wmul 0 0 ABS 0 - dist/default/production\fuxmeter.X.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -

@@ -7,7 +7,7 @@
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.05\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "main.c" 2
-# 65 "main.c"
+# 70 "main.c"
 # 1 "./mcc_generated_files/mcc.h" 1
 # 49 "./mcc_generated_files/mcc.h"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.05\\pic\\include\\xc.h" 1 3
@@ -3525,10 +3525,10 @@ void SYSTEM_Initialize(void);
 void OSCILLATOR_Initialize(void);
 # 96 "./mcc_generated_files/mcc.h"
 void WDT_Initialize(void);
-# 65 "main.c" 2
+# 70 "main.c" 2
 
 # 1 "./sources/variables.h" 1
-# 66 "main.c" 2
+# 71 "main.c" 2
 
 # 1 "./sources/MCCinterface.h" 1
 # 27 "./sources/MCCinterface.h"
@@ -3555,12 +3555,12 @@ extern volatile timebase_flags_t timebase_flags;
 
 void TimeBase(void);
 void TimeBaseVarInit(void);
-# 67 "main.c" 2
+# 72 "main.c" 2
 
 # 1 "./sources/init.h" 1
 # 34 "./sources/init.h"
 void SystemInit(void);
-# 68 "main.c" 2
+# 73 "main.c" 2
 
 # 1 "./sources/analog.h" 1
 # 30 "./sources/analog.h"
@@ -3570,8 +3570,8 @@ extern uint16_t convertedValue;
 
 
 void ReadAnalog(void);
-# 69 "main.c" 2
-# 79 "main.c"
+# 74 "main.c" 2
+# 84 "main.c"
 void gen_pulse(void);
 
 
@@ -3590,7 +3590,7 @@ void main(void)
 
 
     (INTCONbits.PEIE = 1);
-# 105 "main.c"
+# 110 "main.c"
     SystemInit();
     __asm("clrwdt");
     while (1)
@@ -3649,7 +3649,7 @@ void main(void)
 
     }
 }
-# 184 "main.c"
+# 189 "main.c"
 void gen_pulse(void)
 {
     static uint16_t count_pulse;

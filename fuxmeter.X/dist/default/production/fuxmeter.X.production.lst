@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.05 build -831301201 
-                                                                                               Fri Apr 26 19:13:04 2024
+                                                                                               Fri Apr 26 22:42:52 2024
 
 Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1 
      1                           	processor	12F1822
@@ -1492,7 +1492,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1478 ;;
   1479 ;; *************** function _main *****************
   1480 ;; Defined at:
-  1481 ;;		line 84 in file "main.c"
+  1481 ;;		line 89 in file "main.c"
   1482 ;; Parameters:    Size  Location     Type
   1483 ;;		None
   1484 ;; Auto vars:     Size  Location     Type
@@ -1526,66 +1526,66 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1512                           ;psect for function _main
   1513  00F0                     _main:	
   1514                           
-  1515                           ;main.c: 87:     SYSTEM_Initialize();
+  1515                           ;main.c: 92:     SYSTEM_Initialize();
   1516                           
   1517                           ;incstack = 0
   1518                           ; Regs used in _main: [wreg+status,2+status,0+pclath+cstack]
   1519  00F0  2188               	fcall	_SYSTEM_Initialize
   1520                           
-  1521                           ;main.c: 93:     (INTCONbits.GIE = 1);
+  1521                           ;main.c: 98:     (INTCONbits.GIE = 1);
   1522  00F1  178B               	bsf	11,7	;volatile
   1523                           
-  1524                           ;main.c: 96:     (INTCONbits.PEIE = 1);
+  1524                           ;main.c: 101:     (INTCONbits.PEIE = 1);
   1525  00F2  170B               	bsf	11,6	;volatile
   1526                           
-  1527                           ;main.c: 105:     SystemInit();
+  1527                           ;main.c: 110:     SystemInit();
   1528  00F3  21AA               	fcall	_SystemInit
   1529  00F4  0064               	clrwdt	;# 
   1530  00F5                     l1335:	
   1531                           
-  1532                           ;main.c: 108:     {;main.c: 110:         if (timebase_flags.time_100us == 1)
+  1532                           ;main.c: 113:     {;main.c: 115:         if (timebase_flags.time_100us == 1)
   1533  00F5  1879               	btfsc	_timebase_flags,0	;volatile
   1534                           
-  1535                           ;main.c: 111:         {;main.c: 112:             timebase_flags.time_100us = 0;
+  1535                           ;main.c: 116:         {;main.c: 117:             timebase_flags.time_100us = 0;
   1536  00F6  1079               	bcf	_timebase_flags,0	;volatile
   1537                           
-  1538                           ;main.c: 117:         if (timebase_flags.time_1ms == 1)
+  1538                           ;main.c: 122:         if (timebase_flags.time_1ms == 1)
   1539                           
-  1540                           ;main.c: 113:         }
+  1540                           ;main.c: 118:         }
   1541  00F7  1CF9               	btfss	_timebase_flags,1	;volatile
   1542  00F8  28FB               	goto	l1343
   1543                           
-  1544                           ;main.c: 118:         {;main.c: 119:             timebase_flags.time_1ms = 0;
+  1544                           ;main.c: 123:         {;main.c: 124:             timebase_flags.time_1ms = 0;
   1545  00F9  10F9               	bcf	_timebase_flags,1	;volatile
   1546                           
-  1547                           ;main.c: 122:             gen_pulse();
+  1547                           ;main.c: 127:             gen_pulse();
   1548  00FA  206B               	fcall	_gen_pulse
   1549  00FB                     l1343:	
   1550                           
-  1551                           ;main.c: 127:         if (timebase_flags.time_10ms == 1)
+  1551                           ;main.c: 132:         if (timebase_flags.time_10ms == 1)
   1552  00FB  1D79               	btfss	_timebase_flags,2	;volatile
   1553  00FC  28FF               	goto	l1349
   1554                           
-  1555                           ;main.c: 128:         {;main.c: 129:             timebase_flags.time_10ms = 0;
+  1555                           ;main.c: 133:         {;main.c: 134:             timebase_flags.time_10ms = 0;
   1556  00FD  1179               	bcf	_timebase_flags,2	;volatile
   1557                           
-  1558                           ;main.c: 132:             ReadAnalog();
+  1558                           ;main.c: 137:             ReadAnalog();
   1559  00FE  21A4               	fcall	_ReadAnalog
   1560  00FF                     l1349:	
   1561                           
-  1562                           ;main.c: 138:         if (timebase_flags.time_100ms == 1)
+  1562                           ;main.c: 143:         if (timebase_flags.time_100ms == 1)
   1563  00FF  19F9               	btfsc	_timebase_flags,3	;volatile
   1564                           
-  1565                           ;main.c: 139:         {;main.c: 140:             timebase_flags.time_100ms = 0;
+  1565                           ;main.c: 144:         {;main.c: 145:             timebase_flags.time_100ms = 0;
   1566  0100  11F9               	bcf	_timebase_flags,3	;volatile
   1567                           
-  1568                           ;main.c: 145:         if (timebase_flags.time_500ms == 1)
+  1568                           ;main.c: 150:         if (timebase_flags.time_500ms == 1)
   1569                           
-  1570                           ;main.c: 141:         }
+  1570                           ;main.c: 146:         }
   1571  0101  1E79               	btfss	_timebase_flags,4	;volatile
   1572  0102  290F               	goto	l1357
   1573                           
-  1574                           ;main.c: 146:         {;main.c: 147:             timebase_flags.time_500ms = 0;
+  1574                           ;main.c: 151:         {;main.c: 152:             timebase_flags.time_500ms = 0;
   1575  0103  1279               	bcf	_timebase_flags,4	;volatile
   1576  0104  1003               	clrc
   1577  0105  0022               	movlb	2	; select bank2
@@ -1601,11 +1601,11 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1587  010E  108C               	bcf	12,1	;volatile
   1588  010F                     l1357:	
   1589                           
-  1590                           ;main.c: 154:         if (timebase_flags.time_1s == 1)
+  1590                           ;main.c: 159:         if (timebase_flags.time_1s == 1)
   1591  010F  1EF9               	btfss	_timebase_flags,5	;volatile
   1592  0110  28F5               	goto	l1335
   1593                           
-  1594                           ;main.c: 155:         {;main.c: 156:             timebase_flags.time_1s = 0;
+  1594                           ;main.c: 160:         {;main.c: 161:             timebase_flags.time_1s = 0;
   1595  0111  12F9               	bcf	_timebase_flags,5	;volatile
   1596  0112  0064               	clrwdt	;# 
   1597  0113  28F5               	goto	l1335
@@ -1615,7 +1615,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1601  006B                     __ptext1:	
   1602 ;; *************** function _gen_pulse *****************
   1603 ;; Defined at:
-  1604 ;;		line 184 in file "main.c"
+  1604 ;;		line 189 in file "main.c"
   1605 ;; Parameters:    Size  Location     Type
   1606 ;;		None
   1607 ;; Auto vars:     Size  Location     Type
@@ -1648,8 +1648,8 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1634                           ;psect for function _gen_pulse
   1635  006B                     _gen_pulse:	
   1636                           
-  1637                           ;main.c: 186:     static uint16_t count_pulse;;main.c: 187:     static uint16_t filterTr
-      +                          immer;;main.c: 188:     uint16_t tempThreshold;;main.c: 190:  count_pulse++;
+  1637                           ;main.c: 191:     static uint16_t count_pulse;;main.c: 192:     static uint16_t filterTr
+      +                          immer;;main.c: 193:     uint16_t tempThreshold;;main.c: 195:  count_pulse++;
   1638                           
   1639                           ;incstack = 0
   1640                           ; Regs used in _gen_pulse: [wreg+status,2+status,0+pclath+cstack]
@@ -1659,26 +1659,26 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1644  006E  3000               	movlw	0
   1645  006F  3DAB               	addwfc	gen_pulse@count_pulse+1,f
   1646                           
-  1647                           ;main.c: 191:     if (convertedValue > filterTrimmer)
+  1647                           ;main.c: 196:     if (convertedValue > filterTrimmer)
   1648  0070  0828               	movf	gen_pulse@filterTrimmer,w
   1649  0071  0429               	iorwf	gen_pulse@filterTrimmer+1,w
   1650  0072  1903               	btfsc	3,2
   1651  0073  2878               	goto	l212
   1652                           
-  1653                           ;main.c: 194:         filterTrimmer --;
+  1653                           ;main.c: 199:         filterTrimmer --;
   1654  0074  3001               	movlw	1
   1655  0075  02A8               	subwf	gen_pulse@filterTrimmer,f
   1656  0076  3000               	movlw	0
   1657  0077  3BA9               	subwfb	gen_pulse@filterTrimmer+1,f
   1658  0078                     l212:	
   1659                           
-  1660                           ;main.c: 197:  tempThreshold = filterTrimmer;
+  1660                           ;main.c: 202:  tempThreshold = filterTrimmer;
   1661  0078  0829               	movf	gen_pulse@filterTrimmer+1,w
   1662  0079  00B1               	movwf	gen_pulse@tempThreshold+1
   1663  007A  0828               	movf	gen_pulse@filterTrimmer,w
   1664  007B  00B0               	movwf	gen_pulse@tempThreshold
   1665                           
-  1666                           ;main.c: 198:     if (tempThreshold > 25)
+  1666                           ;main.c: 203:     if (tempThreshold > 25)
   1667  007C  3000               	movlw	0
   1668  007D  0231               	subwf	gen_pulse@tempThreshold+1,w
   1669  007E  301A               	movlw	26
@@ -1687,13 +1687,13 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1672  0081  1C03               	skipc
   1673  0082  28A4               	goto	l1319
   1674                           
-  1675                           ;main.c: 199:     {;main.c: 200:         tempThreshold -= 25;
+  1675                           ;main.c: 204:     {;main.c: 205:         tempThreshold -= 25;
   1676  0083  3019               	movlw	25
   1677  0084  02B0               	subwf	gen_pulse@tempThreshold,f
   1678  0085  3000               	movlw	0
   1679  0086  3BB1               	subwfb	gen_pulse@tempThreshold+1,f
   1680                           
-  1681                           ;main.c: 201:         tempThreshold *= 50;
+  1681                           ;main.c: 206:         tempThreshold *= 50;
   1682  0087  3032               	movlw	50
   1683  0088  00F1               	movwf	___wmul@multiplier
   1684  0089  3000               	movlw	0
@@ -1709,7 +1709,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1694  0093  0871               	movf	?___wmul,w
   1695  0094  00B0               	movwf	gen_pulse@tempThreshold
   1696                           
-  1697                           ;main.c: 202:         tempThreshold /= 920;
+  1697                           ;main.c: 207:         tempThreshold /= 920;
   1698  0095  3098               	movlw	152
   1699  0096  00F1               	movwf	___lwdiv@divisor
   1700  0097  3003               	movlw	3
@@ -1725,16 +1725,16 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1710  00A1  0871               	movf	?___lwdiv,w
   1711  00A2  00B0               	movwf	gen_pulse@tempThreshold
   1712                           
-  1713                           ;main.c: 203:     }
+  1713                           ;main.c: 208:     }
   1714  00A3  28A6               	goto	l1321
   1715  00A4                     l1319:	
   1716                           
-  1717                           ;main.c: 205:     {;main.c: 206:        tempThreshold = 0;
+  1717                           ;main.c: 210:     {;main.c: 211:        tempThreshold = 0;
   1718  00A4  01B0               	clrf	gen_pulse@tempThreshold
   1719  00A5  01B1               	clrf	gen_pulse@tempThreshold+1
   1720  00A6                     l1321:	
   1721                           
-  1722                           ;main.c: 209:  if (count_pulse >= tempThreshold)
+  1722                           ;main.c: 214:  if (count_pulse >= tempThreshold)
   1723  00A6  0831               	movf	gen_pulse@tempThreshold+1,w
   1724  00A7  022B               	subwf	gen_pulse@count_pulse+1,w
   1725  00A8  1D03               	skipz
@@ -1745,7 +1745,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1730  00AC  1C03               	skipc
   1731  00AD  0008               	return
   1732                           
-  1733                           ;main.c: 210:     {;main.c: 211:   count_pulse= 0;
+  1733                           ;main.c: 215:     {;main.c: 216:   count_pulse= 0;
   1734  00AE  01AA               	clrf	gen_pulse@count_pulse
   1735  00AF  01AB               	clrf	gen_pulse@count_pulse+1
   1736  00B0  1003               	clrc
@@ -3268,7 +3268,7 @@ SFR31                0      0       0      32        0.0%
 
 
 Microchip Technology PIC Macro Assembler V2.05 build -831301201 
-Symbol Table                                                                                   Fri Apr 26 19:13:04 2024
+Symbol Table                                                                                   Fri Apr 26 22:42:52 2024
 
                              __CFG_CP$OFF 0000                       ___wmul@multiplicand 0073  
                          _timer0ReloadVal 007B                               __CFG_LVP$ON 0000  

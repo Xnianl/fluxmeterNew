@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files\Microchip\xc8\v2.05\pic\dat\en_msgs.txt -cs \
   -h+dist/default/production\fuxmeter.X.production.sym \
   --cmf=dist/default/production\fuxmeter.X.production.cmf -z -Q12F1822 \
-  -oC:\Users\lucap\AppData\Local\Temp\s92o.2 --defsym=__MPLAB_BUILD=1 \
+  -oC:\Users\lucap\AppData\Local\Temp\s7a8.2 --defsym=__MPLAB_BUILD=1 \
   -Mdist/default/production/fuxmeter.X.production.map -E1 -ver=XC8 \
   --acfsm=1493 -ASTACK=02012h-0206Fh -pstack=STACK -ACODE=00h-07FFh \
   -ASTRCODE=00h-07FFh -ASTRING=00h-0FFhx8 -ACONST=00h-0FFhx8 \
@@ -26,7 +26,7 @@ Linker command line:
   -pfunctab=ENTRY -ACONFIG=08007h-08008h -pconfig=CONFIG -DCONFIG=2 \
   -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 -AEEDATA=00h-0FFh/0F000h \
   -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 \
-  -DENTRY=2 -k C:\Users\lucap\AppData\Local\Temp\s92o.o \
+  -DENTRY=2 -k C:\Users\lucap\AppData\Local\Temp\s7a8.o \
   dist/default/production\fuxmeter.X.production.o 
 
 Object code version is 3.11
@@ -36,7 +36,7 @@ Machine type is 12F1822
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\lucap\AppData\Local\Temp\s92o.o
+C:\Users\lucap\AppData\Local\Temp\s7a8.o
                 end_init                              C        C        1        8       0
                 reset_vec                             0        0        1        0       0
                 idloc                              8000     8000        4    10000       0
@@ -681,7 +681,7 @@ FUNCTION INFORMATION:
 
  *************** function _main *****************
  Defined at:
-		line 84 in file "main.c"
+		line 89 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -713,7 +713,7 @@ Total ram usage:        0 bytes
 
  *************** function _gen_pulse *****************
  Defined at:
-		line 184 in file "main.c"
+		line 189 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
