@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=fuxmeter.X
+PROJECTNAME=fluxmeter.X
 
 # Active Configuration
 DEFAULTCONF=default

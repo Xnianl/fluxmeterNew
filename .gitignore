@@ -1,0 +1,8 @@
+.generated_files
+build
+debug
+dist
+motorbench
+nbproject/Makefile-*
+nbproject/Package-*
+nbproject/private
